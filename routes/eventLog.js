@@ -1,6 +1,5 @@
 const express = require('express');
-const { query } = require('express-validator/check');
-const { validationResult } = require('express-validator/check');
+const { query, validationResult } = require('express-validator/check');
 
 const { EventLog } = require('../models/EventLog');
 
